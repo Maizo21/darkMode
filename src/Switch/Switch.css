@@ -1,0 +1,51 @@
+.Switch {
+  position: fixed;
+  top: 8%;
+  right: 5%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.inputBox {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.295),
+    inset 0 10px 10px rgba(0, 0, 0, 0.295);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-icon {
+  padding-left: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.inputBox input:checked + .toggle-icon {
+  transform: rotate(360deg);
+  margin-left: 0px;
+}
+
+.inputBoxText {
+  font-family: pt-sans-pro, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -35px;
+  width: 100%;
+  color: #000;
+}
+
+.textLight {
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
