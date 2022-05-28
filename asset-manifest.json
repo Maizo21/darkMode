@@ -1,15 +1,27 @@
 {
   "files": {
     "main.css": "/darkMode/static/css/main.4c60c433.css",
-    "main.js": "/darkMode/static/js/main.17f1702e.js",
+    "main.js": "/darkMode/static/js/main.100056d5.js",
+    "static/media/strange.jpg": "/darkMode/static/media/strange.e1254fb836eef96d7b9f.jpg",
+    "static/media/astronaut.jpg": "/darkMode/static/media/astronaut.6ff55773990ed31e719b.jpg",
+    "static/media/orion.jpg": "/darkMode/static/media/orion.52c6f9a840e60cb2fe30.jpg",
+    "static/media/spider.jpg": "/darkMode/static/media/spider.5b364a85d2d1e9c9f885.jpg",
+    "static/media/rayo.jpg": "/darkMode/static/media/rayo.e7261a8d97c24ed9e4a6.jpg",
+    "static/media/shaman.jpg": "/darkMode/static/media/shaman.531f7fd4357e83779663.jpg",
+    "static/media/universo.jpg": "/darkMode/static/media/universo.6bd6d72d53d217c4a5a3.jpg",
+    "static/media/planeta1.jpg": "/darkMode/static/media/planeta1.cfca418ab490cfd97559.jpg",
+    "static/media/jupiter.jpg": "/darkMode/static/media/jupiter.753c3bd86cc9450c2d8a.jpg",
+    "static/media/luna.jpg": "/darkMode/static/media/luna.86ca1b43d0fdc7edadbf.jpg",
+    "static/media/dbz.jpg": "/darkMode/static/media/dbz.b1d5a48e4da5713d209a.jpg",
     "static/media/nan.png": "/darkMode/static/media/nan.954488c0c5cec215746c.png",
+    "static/media/sukuna.jpg": "/darkMode/static/media/sukuna.1593abb052b26edce490.jpg",
     "static/media/logo.png": "/darkMode/static/media/logo.ffb15f124298ccdded16.png",
     "index.html": "/darkMode/index.html",
     "main.4c60c433.css.map": "/darkMode/static/css/main.4c60c433.css.map",
-    "main.17f1702e.js.map": "/darkMode/static/js/main.17f1702e.js.map"
+    "main.100056d5.js.map": "/darkMode/static/js/main.100056d5.js.map"
   },
   "entrypoints": [
     "static/css/main.4c60c433.css",
-    "static/js/main.17f1702e.js"
+    "static/js/main.100056d5.js"
   ]
 }
