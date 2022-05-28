@@ -7,6 +7,18 @@ import Bannerimages from "./Bannerimages/Bannerimages";
 import Bannericons from "./Bannericons/Bannericons";
 import Footer from "./Footer/Footer";
 import Switch from "./Switch/Switch";
+import dbz from "./images/dbz.jpg";
+import shaman from "./images/shaman.jpg";
+import sukuna from "./images/sukuna.jpg";
+import spider from "./images/spider.jpg";
+import strange from "./images/strange.jpg";
+import rayo from "./images/rayo.jpg";
+import astronaut from "./images/astronaut.jpg";
+import orion from "./images/orion.jpg";
+import universo from "./images/universo.jpg";
+import luna from "./images/luna.jpg";
+import jupiter from "./images/jupiter.jpg";
+import planeta1 from "./images/planeta1.jpg";
 
 function App() {
   return (
@@ -15,16 +27,16 @@ function App() {
         <Navbar />
 
         <Mainbanner
-          image={`https://www.xtrafondos.com/wallpapers/casa-kame-de-dragon-ball-3963.jpg`}
+          image={dbz}
           title={`Dark Mode for React`}
           text={`Take care of your eyes 😎`}
         />
 
         <Squares
-          image1={`https://www.xtrafondos.com/wallpapers/yoh-asakura-amidamaur-shaman-king-7332.jpg`}
-          image3={`https://www.xtrafondos.com/wallpapers/sukuna-de-jujutsu-kaisen-8302.jpg`}
-          image2={`https://www.xtrafondos.com/wallpapers/spider-man-supreme-9600.jpg`}
-          image4={`https://www.xtrafondos.com/wallpapers/doctor-strange-en-el-multiverso-de-locura-de-wandavision-9562.jpg`}
+          image1={shaman}
+          image3={sukuna}
+          image2={spider}
+          image4={strange}
         />
 
         <Bannertext
@@ -35,22 +47,20 @@ function App() {
           backgroundColorText={`#bddaec`}
         />
 
-        <Mainbanner
-          image={`https://www.xtrafondos.com/wallpapers/rayo-en-paisaje-9125.jpg`}
-        />
+        <Mainbanner image={rayo} />
         <Bannerimages
-          image1={`https://www.xtrafondos.com/wallpapers/astronauta-en-el-cielo-8636.jpg`}
-          image2={`https://www.xtrafondos.com/wallpapers/galaxia-y-constelacion-orion-3895.jpg`}
-          image3={`https://www.xtrafondos.com/wallpapers/universo-abstracto-3820.jpg`}
+          image1={astronaut}
+          image2={orion}
+          image3={universo}
           text={`Blink and a star is on its way to sleep, I'm standing so close to Jupiter, I can feel its winds sweep me off my feet, I'm an astronaut without a name.`}
         />
 
         <Bannericons
-          logo1={`https://www.xtrafondos.com/wallpapers/planeta-en-la-galaxia-5492.jpg`}
-          texto1={`Kepler`}
-          logo2={`https://www.xtrafondos.com/wallpapers/existencia-de-planetas-paralelos-10027.jpg`}
-          texto2={`Gliese`}
-          logo3={`https://www.xtrafondos.com/wallpapers/planeta-como-la-tierra-9736.jpg`}
+          logo1={luna}
+          texto1={`Moon`}
+          logo2={jupiter}
+          texto2={`Jupiter`}
+          logo3={planeta1}
           texto3={`Ogle`}
         />
 
