@@ -21,14 +21,13 @@ input[type="checkbox"] {
 }
 
 .toggle-icon {
-  padding-left: 6px;
+  margin: 0 auto;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .inputBox input:checked + .toggle-icon {
   transform: rotate(360deg);
-  margin-left: 0px;
 }
 
 .inputBoxText {
