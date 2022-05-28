@@ -1,0 +1,53 @@
+.Footer {
+  background-color: #0c0c0c;
+  position: relative;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.Footer img {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.Footer div {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  place-content: center;
+  text-align: left;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  max-width: 300px;
+  margin: 0 auto;
+  row-gap: 10px;
+}
+
+.Footer div p {
+  margin: 0;
+}
+
+.Footer div a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.Footer div a:hover {
+  color: #b8b8b8;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 830px) {
+  .Footer div {
+    column-gap: 20px;
+  }
+}
